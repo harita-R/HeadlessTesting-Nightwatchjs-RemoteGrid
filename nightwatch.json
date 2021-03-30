@@ -28,8 +28,8 @@
         "enabled" : true,
         "path" : ""
     },
-    "username" : "haritagr16",
-    "access_key" : "KhRUhWBtSMg06DfGkKDY1khYNJm95695WV42HfaYPot7nqQfw6",
+    "username" : "YOUR_USR=ERNAME",
+    "access_key" : "YOUR_ACCESSKEY",
  
     "skip_testcases_on_fail": false,
     
