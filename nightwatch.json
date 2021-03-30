@@ -28,7 +28,7 @@
         "enabled" : true,
         "path" : ""
     },
-    "username" : "YOUR_USR=ERNAME",
+    "username" : "YOUR_USERNAME",
     "access_key" : "YOUR_ACCESSKEY",
  
     "skip_testcases_on_fail": false,
