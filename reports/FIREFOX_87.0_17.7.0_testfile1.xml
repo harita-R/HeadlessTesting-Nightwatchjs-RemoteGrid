@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="testfile1"
+    errors="0" failures="1" hostname="" id="" package="testfile1" skipped="0"
+    tests="1" time="6.941" timestamp="">
+  
+    <testcase name="Step one: Navigate to google.com and verify URL and title" classname="testfile1" time="6.941" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds. - expected &#34;found&#34; but got: &#34;not found&#34; (1520ms)">    at Object.Step one: Navigate to google.com and verify URL and title (E:\NightwatchJS\Headless\nightwatch-headless-remote\tests\testfile1.js:5:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

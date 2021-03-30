@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="testfile1"
+    errors="1" failures="0" hostname="" id="" package="testfile1" skipped="2"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        Error: An error occurred while retrieving a new session: &#34;The Selenium/Driver version combination is not available at the moment.  Please refer capabilty generator https://www.lambdatest.com/capabilities-generator/&#34;
+       at endReadableNT (_stream_readable.js:1204:12)
+       at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    </system-err>
+  
+
+    
+    <error message="An error occurred while retrieving a new session: &#34;The Selenium/Driver version combination is not available at the moment.  Please refer capabilty generator https://www.lambdatest.com/capabilities-generator/&#34;"><![CDATA[
+      Error: An error occurred while retrieving a new session: &#34;The Selenium/Driver version combination is not available at the moment.  Please refer capabilty generator https://www.lambdatest.com/capabilities-generator/&#34;
+    at SeleniumProtocol.handleSessionCreateError (E:\NightwatchJS\Headless\nightwatch-headless-remote\node_modules\nightwatch\lib\transport\transport.js:110:15)
+    at HttpRequest.&lt;anonymous&gt; (E:\NightwatchJS\Headless\nightwatch-headless-remote\node_modules\nightwatch\lib\transport\transport.js:166:32)
+    at HttpRequest.emit (events.js:311:20)
+    at HttpResponse.&lt;anonymous&gt; (E:\NightwatchJS\Headless\nightwatch-headless-remote\node_modules\nightwatch\lib\http\request.js:142:19)
+    at HttpResponse.emit (events.js:311:20)
+    at IncomingMessage.&lt;anonymous&gt; (E:\NightwatchJS\Headless\nightwatch-headless-remote\node_modules\nightwatch\lib\http\response.js:60:14)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Step one: Navigate to google.com and verify URL and title" classname="testfile1">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step two: Search &#39;Nightwatch&#39; and verify result" classname="testfile1">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

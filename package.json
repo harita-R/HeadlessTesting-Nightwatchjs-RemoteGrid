@@ -1,0 +1,15 @@
+{
+  "name": "nightwatch-headless-remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -e firefox,chrome tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^1.6.1"
+  }
+}
